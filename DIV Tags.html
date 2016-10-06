@@ -7,70 +7,9 @@
 </head>
  <meta charset="UTF-8">
  <title> Div Tag Template</title>
- <style>
-     body {
-	       background: darkgreen;
-	      font: 100% Georgia, Times, serif; }
-		  
-		  h1 {
-		  font: 300% Arial, Helvetica, sans-serif;
-		  color: yellow;
-		  }
-		  h2 {
-			font: 200% Helvetica;
-        color: yellow;		
-		  }
-		  p{
-		  color: red;
-		  }
-		  #wrapper{
-		 width: 1100px;
-		 margin: 0 auto;
-		 padding: 0 50px;
-		 text-align: left;
-		 position: relative;
-		  }
-		#mainHeader {
-			height: 185px;
-			background: url(images/logo.png) no-repeat 25px center;
-			padding: 0 75px 0 300px;
-			position: relative;
-			border-bottom: 2px solid #7f7f7f;
-			margin-bottom:16px;
-		}
-		#mainHeader div{
-			margin-top: 16px;
-		}
-		#mainHeader ul{
-			list-style: none;
-			float: left;
-		}
-		#mainHeader ul li {
-			float: left;
-		}
-		
-		}
-		#mainHeader ul li a.last{
-			border:none;
-		}
-		#mainHeader ul li a:hover{
-			color: #c00000;
-		}
-		  #mainHeader ul li a {
-		  font-family: Arial, Helvetica, sans-serif;
-		  font-size: 20px;
-		  color: #000;
-		  padding: 0 20px;
-		  border-right: 1px solid #000;
-		  text-decoration: none;
-		  }
-		  #mainHeader ul li a.last{
-		  border: none;
-		  }
-		  #mainHeader ul li a:hover{
-		  color: #c00000;
-		  }
-		  </style>
+ <link href="main.css" rel="stylesheet"
+ type="text/css">
+ 
 <body>
 <!--Page Content wrapper-->
 <div id="wrapper">
@@ -81,7 +20,7 @@
 <h2>My Collection of Programing Projects and Assignments</h2>
 
 <!--site Navigation links -->
-<div id="mainNav">
+<header id="mainNav">
 <ul id="pages">
        <li>
 	       <a href="#">Scratch</a>
@@ -98,25 +37,25 @@
 	     <li>
 	       <a href="#">Home</a>
 	   </li>
-</ul>
+      </ul>
 </div><!-- end Navigation links -->
 
-</div><!-- end header-->
+</header><!-- end header-->
 
 <!--Section Content -->
-<div id="content">
+<section id="content">
 <p>Replace this text with project and assignment examples</p>
-</div><!-- end Content -->
+</section><!-- end Content -->
 
 <!-- Aside Content -->
-<div id="hobbies">
+<aside id="hobbies">
 <p>Place things you like here; photos, links, videos, ect. </p>
-</div>
+</aside><!--end Hobbies -->
 
 <!--Footer Content-->
-<div id="pageFooter">
+<footer id="pageFooter">
   <p> author, contact info, copywrites</p>
-</div><!-- end Footer -->
+</footer><!-- end Footer -->
 
 </div> <!-- end wrapper-->
 
